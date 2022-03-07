@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+body {
+  background-color: #797979;
+}
+
+body a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #ff0000;
+}
+
+body h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+body h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+body h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+body p {
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  font-family: 500;
+  font-size: 14px;
+}
+
+#nav {
+  background-color: #F8F9FA;
+}
+
+#industria img {
+  border-radius: 5px;
+}
+
+#industria .productos {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#industria .productos p {
+  color: #000000;
+  font-size: 18px;
+}
+
+#industria .productos .productosBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#industria .productos ul {
+  list-style: none;
+}
+
+#industria .servicios {
+  background-color: #000000;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#nosotros {
+  background-color: #ff0000;
+  color: #FFFFFF;
+}
+
+#nosotros img {
+  border-radius: 5px;
+}
+
+#marcas {
+  background-color: #797979;
+  height: 150px;
+}
+
+#mapa {
+  height: 450px;
+}
+
+footer {
+  background-color: #000000;
+}
+
+footer .c1 img {
+  width: 120px;
+}
+
+footer .c1 span p {
+  padding-top: 10px;
+  color: #797979;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+footer .c2 ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+footer .c3 img {
+  width: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .c3 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pf {
+  font-size: 12px;
+  font-weight: 400;
+  color: #797979;
+}
+
+.tf {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.pfb {
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=estilos.css.map */

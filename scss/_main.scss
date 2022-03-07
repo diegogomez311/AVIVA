@@ -1,0 +1,451 @@
+body{
+    background-image: url(../media/img/bg-body.jpg);
+    background-size: contain;   
+    a{
+        color:$blanco;
+        text-decoration: none;
+    }
+    a:hover{
+        color: $rojo;
+    }
+    span{
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: $gris;
+    }
+    h1{
+        font-family: $poppins;
+        color: $blanco;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0px;
+    }
+    h2{
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 24px;
+        color: $blanco;       
+    }
+    h3{
+        font-family: $poppins;
+        font-weight: 400;
+        font-size: 16px;    
+    }
+    h5{
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.2rem;    
+    }
+    h6{
+        font-family: $poppins;
+        font-weight: 400;
+        font-size: 14px;       
+    }
+    p{
+        font-family: $poppins;
+        color: $blanco;
+        font-family: 500;
+        font-size: 12px;
+    }
+    .social-links2{
+        display: none;
+    }
+    .social-links {
+        a {
+            font-size: 18px;
+            display: inline-block;
+            background: $gris;
+            color: #fff;
+            line-height: 1;
+            padding: 8px 10px;
+            margin-right: 4px;
+            border-radius: 4px;
+            text-align: center;
+            
+            height: 36px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: $rojo;
+            color: $blanco;
+            text-decoration: none;
+        }
+        img{
+            width: 14px;
+            margin-bottom: 3px;
+        }
+        span{
+            color: $blanco;
+            font-size: 14px;                        
+        }
+    }
+}/*CIERRE BODY*/
+
+/*SLIDEY*/
+#slide{
+    margin-top: 64px;
+    padding: 10px 0px;    
+    img{
+        border-radius: 5px;
+    }
+}
+
+/*LIKS*/
+#links{
+    background-color: $rojo;
+    padding: 10px 0px; 
+    img{
+        border-radius: 5px;
+        float: left;
+        width: 100%;             
+    }
+    button{
+        width: 50%;        
+    }    
+    .carreras{
+        background-color: $negro;
+        text-align: center;
+        color: $blanco;        
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h2{
+        padding-top: 12px;
+        padding-bottom: 5px;
+        line-height: 16px;
+    }
+}
+
+/*FEATURED*/
+#featured{
+    background-color: $negro;    
+    padding: 10px 0px;
+    .card{
+        border: none;    
+        img{
+            height: 60px;
+            margin: 20px auto;     
+        }
+        h4{
+            font-family: $poppins;           
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+            line-height: 20px;
+        }
+        p{
+            font-family: $poppins;
+            color: $negro;
+            font-size: 14px;
+            text-align: center;
+        }
+    }    
+}
+
+/*LIKS2*/
+#links2{
+    background-color: #E02220;
+    padding: 10px 0px;
+    img{
+        width: 100%;
+        border-radius: 5px;       
+    }   
+}
+
+/*DESTACADOS*/
+#destacados{
+    background-image: url(../media/img/bck.png);
+    background-size: contain;
+    padding: 10px 0px;   
+    
+    h4{
+        font-family: $poppins;
+        font-weight: 700;
+        font-size: 1rem;
+        text-align: center;
+    }
+    a{
+        color:$negro;
+        text-decoration: none;
+    }
+}
+
+/*MAPA*/
+#mapa{
+    background-color: $rojo;
+    margin-bottom: -6px;
+}
+
+/*FOOTER*/
+footer{   
+    background-color: #1d1e23;
+    background-image: url(../media/img/footer-bg.png);
+    background-size: cover;
+    padding: 20px 0px;
+    .c1{
+        img{
+            width: 200px;
+        }
+        span{      
+            p{
+                padding-top: 8px;
+                color: $gris;
+                font-family: $poppins;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;            
+            }        
+        }
+    }
+    .c2{      
+        button{
+            margin-left: 15px;                
+        }
+    }
+    .c3{
+        img{            
+            width: 38px;
+            margin-left: 12px;
+        }
+        p{              
+            padding: 0 0 0 20px;
+        }    
+    }    
+    h3{
+        color: $blanco;
+        font-family: $poppins;
+        font-weight: 600;    
+    }
+    hr{
+        background-color: $rojo;           
+    }   
+}
+
+/*HEADH1*/
+
+.headh1{
+    background-color: $negro;
+    padding: 60px 0px;    
+    p{
+        font-size: 1.2rem;
+        margin: 0px 200px;
+    }
+}
+
+.headh2{    
+    padding: 20px 0px;    
+    p{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+/*MISION*/
+#mision{
+    background-color: $gris;
+    padding: 10px 0px;
+    p{
+        color: $negro;
+        font-family: $poppins;
+        font-size: 14px;
+    }    
+}
+
+/*EQUIPO*/
+#equipo{
+    background-color: $rojo;
+    padding: 10px 0px;
+    h2{
+        text-align: center;
+    }
+    p{
+        font-size: $poppins;
+        font-size: 14px;
+    }
+}
+
+#carreras{
+    background-color: $rojo;
+    padding: 10px 0px;
+    .jumbotron{
+        background-color: $grisClaro;
+        padding: 2rem 2rem;
+        p{
+            font-size: 14px;
+        }
+        .jum1{
+            background-color: $jum1;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+        .jum2{
+            background-color: $jum2;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+    }
+}
+
+#contacto{    
+    color: $negro;
+    background-image: url(../media/img/bck.png);
+    background-size: cover;
+    .jumbotron{
+        background-color: $grisClaro;
+        padding: 2rem 1rem;       
+    }
+    
+    img{
+        border-radius: 5px;
+    }
+    p{
+        font-size: 18px;
+        color: $negro;
+        padding: 2px 5px;
+    }
+    .date{
+        background-color: $blanco;
+        border-radius: 5px;    
+    }
+    a{  
+        img{
+            height: 50px;
+        }        
+    }
+    span{
+        color: $gris;
+        font-size: 14px;
+    }
+}
+
+#login{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    background-color: $blanco;
+    margin-top: 64px;
+    h1{
+        color: $negro;
+    }
+    .form-signin {
+        width: 100%;
+        max-width: 330px;
+        padding: 15px;
+        margin: auto;
+        .checkbox {
+            font-weight: 400;
+        }
+        .form-control {
+            position: relative;
+            box-sizing: border-box;
+            height: auto;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .form-control:focus {
+            z-index: 2;
+        }
+        input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }    
+}
+
+
+/*--------------------------------------------------------------------*/
+
+
+
+
+
+
+
+#wa1{    
+    a{     
+        img{
+            width: 50px;
+            position: fixed;
+            bottom: 200px;
+            right: 0px;
+        }
+    }
+}
+
+@mixin poppins ($size, $weight, $color){
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;    
+}
+
+.pf{
+    @include poppins (12px, $regular ,$gris)
+}
+.tf{
+    @include poppins (16px, $bold, $blanco)
+}
+.pfb{
+    @include poppins (14px, $regular ,$blanco)
+}
+
+
+@media only screen and (max-width: 768px) {  
+    .mxs{
+        margin-top: 10px;
+    }
+    #headh1{        
+        padding: 40px 0px;    
+        p{
+            font-size: 1rem;
+            margin: 0px 20px;
+        }
+    }
+    #industria{      
+        .servicios{
+            margin-top: 10px;            
+        }
+    } 
+    #distinciones{
+        background-color: $gris;    
+        .card{
+            border: none;    
+            img{
+                height: 60px;
+                margin: 20px auto 0px auto;     
+            }
+            h4{
+                font-family: $poppins;           
+                font-weight: 700;
+                font-size: 14px;
+                text-align: center;
+                line-height: 20px;
+            }
+            p{
+                display: none;
+            }
+        }
+    }
+    #box{
+        img{
+            width: 80%;
+            display: flex;
+            align-items: center;
+        }
+    }
+ 
+}
