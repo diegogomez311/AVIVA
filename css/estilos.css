@@ -228,7 +228,8 @@ footer {
   background-color: #ff0000;
   padding: 10px 0px; }
   #equipo h2 {
-    text-align: center; }
+    text-align: center;
+    font-size: 2.2rem; }
   #equipo p {
     font-size: "Poppins", sans-serif;
     font-size: 14px; }
