@@ -1,6 +1,7 @@
 body{
+    /*
     background-image: url(../media/img/bg-body.jpg);
-    background-size: contain;   
+    background-size: contain;*/   
     a{
         color:$blanco;
         text-decoration: none;
@@ -85,6 +86,35 @@ body{
     }
 }/*CIERRE BODY*/
 
+#headerIndex{
+    background-image: url(../media/img/bg-body.jpg);
+    background-size: cover; 
+}
+
+#headerCuarto{
+    background-image: url(../media/img/bgBodyCuartoOracion.jpg);
+    background-size: contain; 
+}
+
+#headerNosotros{
+    background-image: url(../media/img/bgNosotros.jpg);
+    background-size: contain; 
+}
+
+#headerContacto{
+    background-image: url(../media/img/bgNosotros.jpg);
+    background-size: contain; 
+}
+#headerCarreras{
+    background-image: url(../media/img/bgNosotros.jpg);
+    background-size: contain; 
+}
+#headerInscripcion{
+    background-image: url(../media/img/bgNosotros.jpg);
+    background-size: contain; 
+}
+
+
 /*SLIDEY*/
 #slide{
     margin-top: 64px;
@@ -96,7 +126,7 @@ body{
 
 /*LIKS*/
 #links{
-    background-color: $rojo;
+    
     padding: 10px 0px; 
     img{
         border-radius: 5px;
@@ -124,7 +154,7 @@ body{
 
 /*FEATURED*/
 #featured{
-    background-color: $negro;    
+    background-color: $blanco;    
     padding: 10px 0px;
     .card{
         border: none;    
