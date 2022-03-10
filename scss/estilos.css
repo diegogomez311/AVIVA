@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
 body {
-  background-color: #797979;
+  /*
+    background-image: url(../media/img/bg-body.jpg);
+    background-size: contain;*/
 }
 
 body a {
@@ -12,16 +14,28 @@ body a:hover {
   color: #ff0000;
 }
 
-body h1 {
+body span {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #797979;
+}
+
+body h1 {
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0px;
 }
 
 body h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 24px;
+  color: #FFFFFF;
 }
 
 body h3 {
@@ -30,121 +44,425 @@ body h3 {
   font-size: 16px;
 }
 
+body h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2rem;
+}
+
+body h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 body p {
   font-family: "Poppins", sans-serif;
   color: #FFFFFF;
   font-family: 500;
+  font-size: 12px;
+}
+
+body .social-links2 {
+  display: none;
+}
+
+body .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #797979;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 10px;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  height: 36px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .social-links a:hover {
+  background: #ff0000;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+body .social-links img {
+  width: 14px;
+  margin-bottom: 3px;
+}
+
+body .social-links span {
+  color: #FFFFFF;
   font-size: 14px;
 }
 
-#nav {
-  background-color: #F8F9FA;
+/*CIERRE BODY*/
+#headerIndex {
+  background-image: url(../media/img/bg-body.jpg);
+  background-size: cover;
 }
 
-#industria img {
+#headerCuarto {
+  background-image: url(../media/img/bgBodyCuartoOracion.jpg);
+  background-size: contain;
+}
+
+#headerNosotros {
+  background-image: url(../media/img/bgNosotros.jpg);
+  background-size: contain;
+}
+
+#headerContacto {
+  background-image: url(../media/img/bgNosotros.jpg);
+  background-size: contain;
+}
+
+#headerCarreras {
+  background-image: url(../media/img/bgNosotros.jpg);
+  background-size: contain;
+}
+
+#headerInscripcion {
+  background-image: url(../media/img/bgNosotros.jpg);
+  background-size: contain;
+}
+
+/*SLIDEY*/
+#slide {
+  margin-top: 64px;
+  padding: 10px 0px;
+}
+
+#slide img {
   border-radius: 5px;
 }
 
-#industria .productos {
+/*LIKS*/
+#links {
+  padding: 10px 0px;
+}
+
+#links img {
+  border-radius: 5px;
+  float: left;
+  width: 100%;
+}
+
+#links button {
+  width: 50%;
+}
+
+#links .carreras {
+  background-color: #000000;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#links h2 {
+  padding-top: 12px;
+  padding-bottom: 5px;
+  line-height: 16px;
+}
+
+/*FEATURED*/
+#featured {
   background-color: #FFFFFF;
-  border-radius: 5px;
-  text-align: center;
+  padding: 10px 0px;
 }
 
-#industria .productos p {
+#featured .card {
+  border: none;
+}
+
+#featured .card img {
+  height: 60px;
+  margin: 20px auto;
+}
+
+#featured .card h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#featured .card p {
+  font-family: "Poppins", sans-serif;
   color: #000000;
-  font-size: 18px;
-}
-
-#industria .productos .productosBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#industria .productos ul {
-  list-style: none;
-}
-
-#industria .servicios {
-  background-color: #000000;
+  font-size: 14px;
   text-align: center;
-  color: #FFFFFF;
-  border-radius: 5px;
-  padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-#nosotros {
-  background-color: #ff0000;
-  color: #FFFFFF;
+/*LIKS2*/
+#links2 {
+  background-color: #E02220;
+  padding: 10px 0px;
 }
 
-#nosotros img {
+#links2 img {
+  width: 100%;
   border-radius: 5px;
 }
 
-#marcas {
-  background-color: #797979;
-  height: 150px;
+/*DESTACADOS*/
+#destacados {
+  background-image: url(../media/img/bck.png);
+  background-size: contain;
+  padding: 10px 0px;
 }
 
+#destacados h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#destacados a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/*MAPA*/
 #mapa {
-  height: 450px;
+  background-color: #ff0000;
+  margin-bottom: -6px;
 }
 
+/*FOOTER*/
 footer {
-  background-color: #000000;
+  background-color: #1d1e23;
+  background-image: url(../media/img/footer-bg.png);
+  background-size: cover;
+  padding: 20px 0px;
 }
 
 footer .c1 img {
-  width: 120px;
+  width: 200px;
 }
 
 footer .c1 span p {
-  padding-top: 10px;
+  padding-top: 8px;
   color: #797979;
   font-family: "Poppins", sans-serif;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
 }
 
-footer .c2 ul {
-  list-style: none;
-  padding-left: 0px;
+footer .c2 button {
+  margin-left: 15px;
 }
 
 footer .c3 img {
-  width: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 38px;
+  margin-left: 12px;
 }
 
 footer .c3 p {
-  display: -webkit-box;
+  padding: 0 0 0 20px;
+}
+
+footer h3 {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+footer hr {
+  background-color: #ff0000;
+}
+
+/*HEADH1*/
+.headh1 {
+  background-color: #000000;
+  padding: 60px 0px;
+}
+
+.headh1 p {
+  font-size: 1.2rem;
+  margin: 0px 200px;
+}
+
+.headh2 {
+  padding: 20px 0px;
+}
+
+.headh2 p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/*MISION*/
+#mision {
+  background-color: #797979;
+  padding: 10px 0px;
+}
+
+#mision p {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+/*EQUIPO*/
+#equipo {
+  background-color: #ff0000;
+  padding: 10px 0px;
+}
+
+#equipo h2 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+#equipo p {
+  font-size: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+#equipo h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2rem;
+}
+
+#carreras {
+  background-color: #ff0000;
+  padding: 10px 0px;
+}
+
+#carreras .jumbotron {
+  background-color: #f4f4f4;
+  padding: 2rem 2rem;
+}
+
+#carreras .jumbotron p {
+  font-size: 14px;
+}
+
+#carreras .jumbotron .jum1 {
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+#carreras .jumbotron .jum2 {
+  background-color: #F4F4F4;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+#contacto {
+  color: #000000;
+  background-image: url(../media/img/bck.png);
+  background-size: cover;
+}
+
+#contacto .jumbotron {
+  background-color: #f4f4f4;
+  padding: 2rem 1rem;
+}
+
+#contacto img {
+  border-radius: 5px;
+}
+
+#contacto p {
+  font-size: 18px;
+  color: #000000;
+  padding: 2px 5px;
+}
+
+#contacto .date {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+#contacto a img {
+  height: 50px;
+}
+
+#contacto span {
+  color: #797979;
+  font-size: 14px;
+}
+
+#login {
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
+  -ms-flex-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
+  padding-top: 60px;
+  padding-bottom: 200px;
+  background-color: #FFFFFF;
+  margin-top: 64px;
+}
+
+#login h1 {
+  color: #000000;
+}
+
+#login .form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+#login .form-signin .checkbox {
+  font-weight: 400;
+}
+
+#login .form-signin .form-control {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#login .form-signin .form-control:focus {
+  z-index: 2;
+}
+
+#login .form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#login .form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*--------------------------------------------------------------------*/
+#wa1 a img {
+  width: 50px;
+  position: fixed;
+  bottom: 200px;
+  right: 0px;
 }
 
 .pf {
@@ -163,5 +481,50 @@ footer .c3 p {
   font-size: 14px;
   font-weight: 400;
   color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .mxs {
+    margin-top: 10px;
+  }
+  #headh1 {
+    padding: 40px 0px;
+  }
+  #headh1 p {
+    font-size: 1rem;
+    margin: 0px 20px;
+  }
+  #industria .servicios {
+    margin-top: 10px;
+  }
+  #distinciones {
+    background-color: #797979;
+  }
+  #distinciones .card {
+    border: none;
+  }
+  #distinciones .card img {
+    height: 60px;
+    margin: 20px auto 0px auto;
+  }
+  #distinciones .card h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+  }
+  #distinciones .card p {
+    display: none;
+  }
+  #box img {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
