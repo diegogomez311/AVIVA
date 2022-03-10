@@ -297,13 +297,13 @@ footer{
     }
     p{
         font-size: $poppins;
-        font-size: 14px;
+        font-size: 12px;
     }
     h5{
         font-family: $poppins;
         font-weight: 700;
-        font-size: 16px;
-        line-height: 1.2rem;    
+        font-size: 14px;
+        line-height: 1rem;    
     }
 }
 
@@ -328,6 +328,50 @@ footer{
         }
     }
 }
+
+
+#inscripciones{
+    background-color: $rojo;
+    padding: 10px 0px;
+    .jumbotron{
+        background-color: $grisClaro;
+        padding: 2rem 2rem;
+        .headerinscripcion{
+            h3{
+                font-size: 1.6rem;
+                text-align: center;
+                font-weight: 600;
+                color: $rojo;
+            }
+            p{
+                font-size: 14px;
+                color: $negro;
+            }
+        }
+        h3{
+            font-size: 1.4rem;
+            text-align: center;
+            font-weight: 600;
+        }
+        p{
+            font-size: 14px;
+            color: $negro;
+        }
+        .jum1{
+            background-color: $jum1;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+        .jum2{
+            background-color: $jum2;
+            border-radius: 5px;
+            padding: 10px 10px;
+        }
+    }
+   
+}
+
+
 
 #contacto{    
     color: $negro;
@@ -483,6 +527,5 @@ footer{
             display: flex;
             align-items: center;
         }
-    }
- 
+    } 
 }
