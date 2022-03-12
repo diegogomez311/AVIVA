@@ -449,16 +449,10 @@ footer hr {
   font-size: 14px;
 }
 
-#contacto form {
-  padding: 50px 20px;
-  background-color: #ededed;
-  margin: calc(25% + 100px);
-  margin-top: 70px;
-  padding-top: 28px;
-  margin-bottom: 30px h1;
-  margin-bottom-text-align: center;
-  margin-bottom-padding: 12px;
-  margin-bottom-color: #444;
+#contacto form h1 {
+  text-align: center;
+  padding: 12px;
+  color: #444;
 }
 
 #contacto form input {
@@ -467,12 +461,33 @@ footer hr {
   margin: auto;
   margin-top: 12px;
   font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+#contacto form textarea {
+  width: calc(100% - 20px);
+  padding: 9px;
+  margin: auto;
+  margin-top: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
 }
 
 #contacto form input[type='submit'] {
-  background-color: #48e;
+  background-color: #ff0000;
   color: #fff;
-  width: calc(80% - 20px);
+  width: calc(50% - 20px);
+  margin: 0 10%;
+  margin-top: 22px;
+  border: none;
+}
+
+#contacto form input[type='reset'] {
+  background-color: #ff0000;
+  color: #fff;
+  width: calc(50% - 20px);
   margin: 0 10%;
   margin-top: 22px;
   border: none;

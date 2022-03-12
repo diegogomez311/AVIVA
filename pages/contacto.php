@@ -139,13 +139,18 @@
                 <div class="col-12 col-md-6 pt-3 pb-3">
                     <div class="jumbotron">
                         <form method="post">
-                            <h1>¡Suscribete!</h1>
-                            <input type="text" name="name" placeholder="Nombre completo">
-                            <input type="email" name="email" placeholder="Email">
-                            <input type="submit" name="register">
+                            <h1>Formulario!</h1>
+                            <input type="text" name="name" placeholder="Nombre completo" required>
+                            <input type="email" name="email" placeholder="Correo Electrónico" required>
+                            <input type="text" name="asunto" placeholder="Asunto" required>
+                            <textarea name="mensaje" name="msg"></textarea>
+                            <input type="submit" name="enviar">
+                            <input type="reset" name="borrar">
                         </form>
                     </div>
                 </div>
+            </div>
+        </div>
     </section>
 
     <footer>
@@ -225,7 +230,7 @@
     <script src="../js/popper.min.js"></script>
     
     <?php 
-        include("registrar.php");
+        include("correo.php");
     ?>
 
     
