@@ -333,14 +333,14 @@ footer hr {
 
 #equipo p {
   font-size: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #equipo h5 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.2rem;
+  font-size: 14px;
+  line-height: 1rem;
 }
 
 #carreras {
@@ -364,6 +364,51 @@ footer hr {
 }
 
 #carreras .jumbotron .jum2 {
+  background-color: #F4F4F4;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+#inscripciones {
+  background-color: #ff0000;
+  padding: 10px 0px;
+}
+
+#inscripciones .jumbotron {
+  background-color: #f4f4f4;
+  padding: 2rem 2rem;
+}
+
+#inscripciones .jumbotron .headerinscripcion h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 600;
+  color: #ff0000;
+}
+
+#inscripciones .jumbotron .headerinscripcion p {
+  font-size: 14px;
+  color: #000000;
+}
+
+#inscripciones .jumbotron h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+#inscripciones .jumbotron p {
+  font-size: 14px;
+  color: #000000;
+}
+
+#inscripciones .jumbotron .jum1 {
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+#inscripciones .jumbotron .jum2 {
   background-color: #F4F4F4;
   border-radius: 5px;
   padding: 10px 10px;
@@ -402,6 +447,51 @@ footer hr {
 #contacto span {
   color: #797979;
   font-size: 14px;
+}
+
+#contacto form {
+  padding: 50px 20px;
+  background-color: #ededed;
+  margin: calc(25% + 100px);
+  margin-top: 70px;
+  padding-top: 28px;
+  margin-bottom: 30px h1;
+  margin-bottom-text-align: center;
+  margin-bottom-padding: 12px;
+  margin-bottom-color: #444;
+}
+
+#contacto form input {
+  width: calc(100% - 20px);
+  padding: 9px;
+  margin: auto;
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+#contacto form input[type='submit'] {
+  background-color: #48e;
+  color: #fff;
+  width: calc(80% - 20px);
+  margin: 0 10%;
+  margin-top: 22px;
+  border: none;
+}
+
+#contacto form .ok {
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: #1e6;
+  color: #fff;
+}
+
+#contacto form .bad {
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: #a22;
+  color: #fff;
 }
 
 #login {
@@ -457,7 +547,6 @@ footer hr {
   border-top-right-radius: 0;
 }
 
-/*--------------------------------------------------------------------*/
 #wa1 a img {
   width: 50px;
   position: fixed;
@@ -465,6 +554,7 @@ footer hr {
   right: 0px;
 }
 
+/*--------------------------------------------------------------------*/
 .pf {
   font-size: 12px;
   font-weight: 400;

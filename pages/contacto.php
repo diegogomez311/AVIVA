@@ -137,8 +137,15 @@
                     <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.54834646805!2d-62.250696784756755!3d-38.751125379593525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eda388b6b78e55%3A0x2b673c2cfa4efc14!2sDios%20Nuestro%20Padre!5e0!3m2!1ses-419!2sar!4v1646317209604!5m2!1ses-419!2sar" width="100%" height="440" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 <div class="col-12 col-md-6 pt-3 pb-3">
-                    <div class="jumbotron">                        
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScCx5OKDP22U36GrDl72GkgDoFF1WAcDF3C23EHcM812SX8Eg/viewform?embedded=true" width="500" height="813" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>        </div>
+                    <div class="jumbotron">
+                        <form method="post">
+                            <h1>¡Suscribete!</h1>
+                            <input type="text" name="name" placeholder="Nombre completo">
+                            <input type="email" name="email" placeholder="Email">
+                            <input type="submit" name="register">
+                        </form>
+                    </div>
+                </div>
     </section>
 
     <footer>
@@ -216,5 +223,11 @@
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/popper.min.js"></script>
+    
+    <?php 
+        include("registrar.php");
+    ?>
+
+    
 </body>
 </html>
