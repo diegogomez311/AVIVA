@@ -255,6 +255,12 @@ footer {
       background-color: #F4F4F4;
       border-radius: 5px;
       padding: 10px 10px; }
+    #carreras .jumbotron .card {
+      border: none; }
+    #carreras .jumbotron .card-img-top {
+      background-color: #E1E1E1; }
+    #carreras .jumbotron .card-img-top2 {
+      background-color: #f4f4f4; }
 
 #inscripciones {
   background-color: #ff0000;

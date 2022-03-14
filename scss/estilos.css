@@ -369,6 +369,18 @@ footer hr {
   padding: 10px 10px;
 }
 
+#carreras .jumbotron .card {
+  border: none;
+}
+
+#carreras .jumbotron .card-img-top {
+  background-color: #E1E1E1;
+}
+
+#carreras .jumbotron .card-img-top2 {
+  background-color: #f4f4f4;
+}
+
 #inscripciones {
   background-color: #ff0000;
   padding: 10px 0px;

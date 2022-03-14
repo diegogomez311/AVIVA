@@ -326,6 +326,15 @@ footer{
             border-radius: 5px;
             padding: 10px 10px;
         }
+        .card{
+            border: none;
+        }
+        .card-img-top{
+            background-color: #E1E1E1;
+        }
+        .card-img-top2{
+            background-color: $grisClaro;            
+        }
     }
 }
 
