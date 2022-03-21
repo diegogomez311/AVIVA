@@ -68,6 +68,9 @@ body {
   body .social-links span {
     color: #FFFFFF;
     font-size: 14px; }
+  body .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.1rem;
+    padding-left: 0.1rem; }
 
 /*CIERRE BODY*/
 #headerIndex {
@@ -232,12 +235,19 @@ footer {
     font-size: 2.2rem; }
   #equipo p {
     font-size: "Poppins", sans-serif;
-    font-size: 12px; }
+    font-size: 14px; }
   #equipo h5 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 1rem; }
+  #equipo .pmision {
+    color: #000000;
+    font-size: 0.9rem; }
+  #equipo h3 {
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 600; }
 
 #carreras {
   background-color: #ff0000;
@@ -261,6 +271,8 @@ footer {
       background-color: #E1E1E1; }
     #carreras .jumbotron .card-img-top2 {
       background-color: #f4f4f4; }
+    #carreras .jumbotron .card-img-none {
+      background-color: #FFFFFF; }
 
 #inscripciones {
   background-color: #ff0000;

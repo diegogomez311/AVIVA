@@ -84,6 +84,15 @@ body{
             font-size: 14px;                        
         }
     }
+    .navbar-expand-lg{
+        .navbar-nav{
+            .nav-link {
+                padding-right: 0.1rem;
+                padding-left: 0.1rem;
+            }
+        }
+    }
+
 }/*CIERRE BODY*/
 
 #headerIndex{
@@ -297,13 +306,22 @@ footer{
     }
     p{
         font-size: $poppins;
-        font-size: 12px;
+        font-size: 14px;
     }
     h5{
         font-family: $poppins;
         font-weight: 700;
         font-size: 14px;
         line-height: 1rem;    
+    }
+    .pmision{
+        color: $negro;
+        font-size: 0.9rem;
+    }
+    h3{
+        color: $negro;
+        font-size: 1.4rem;
+        font-weight: 600;        
     }
 }
 
@@ -335,9 +353,11 @@ footer{
         .card-img-top2{
             background-color: $grisClaro;            
         }
+        .card-img-none{
+            background-color: $blanco;
+        }        
     }
 }
-
 
 #inscripciones{
     background-color: $rojo;
